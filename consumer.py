@@ -48,6 +48,7 @@ class Consumer(object):
                                no_ack=True,
                                callback=self.do_jobs)
             # start listen
+            print("starting listen; ")
             while True:
                 chan.wait()
 
