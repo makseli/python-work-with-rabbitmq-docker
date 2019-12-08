@@ -19,8 +19,8 @@ class Consumer(object):
                           "exchange": os.getenv('RABBITMQ_QUEUE_EXCHANGE')
                           }
 
-        print(self.rabbitMQConf)
-        print(self.queueConf)
+        # print(self.rabbitMQConf)
+        # print(self.queueConf)
         # exit(0)
 
     def listen(self):
